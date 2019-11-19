@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义跑马灯广告轮播-->
+    <declare-styleable name="MarqueeView">
+        <!--        间隔时间-->
+        <attr name="MarqueeViewInterval" format="integer|reference" />
+        <!--        是否开启动画文字轮播-->
+        <attr name="MarqueeViewAnimDuration" format="integer|reference" />
+        <!--        文字大小-->
+        <attr name="MarqueeViewTextSize" format="dimension|reference" />
+        <!--        位子颜色-->
+        <attr name="MarqueeViewTextColor" format="color|reference" />
+        <!--        是否当行显示-->
+        <attr name="MarqueeViewSingleLine" format="boolean" />
+        <!--        文字显示位置-->
+        <attr name="MarqueeViewGravity">
+            <enum name="left" value="0" />
+            <enum name="center" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+        <!--        动画方向-->
+        <attr name="MarqueeViewDirection">
+            <enum name="bottom_to_top" value="0" />
+            <enum name="top_to_bottom" value="1" />
+            <enum name="right_to_left" value="2" />
+            <enum name="left_to_right" value="3" />
+        </attr>
+        <!--        进入动画 设置了此属性则，默认的和MarqueeViewDirection设置的动画效果不生效-->
+        <attr name="MarqueeViewAnimIn" format="reference" />
+        <!--        离开动画 设置了此属性则，默认的和MarqueeViewDirection设置的动画效果不生效-->
+        <attr name="MarqueeViewAnimOut" format="reference" />
+    </declare-styleable>
+</resources>
