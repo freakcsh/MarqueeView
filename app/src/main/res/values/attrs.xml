@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FuckView">
+        <attr name="FuckViewStrokeWidth" format="dimension|reference" />
+        <attr name="FuckViewOutColor" format="color" />
+        <attr name="FuckViewInColor" format="color" />
+        <attr name="FuckViewTextColor" format="color"/>
+        <attr name="FuckViewTextSize" format="dimension|reference"/>
+    </declare-styleable>
+</resources>
